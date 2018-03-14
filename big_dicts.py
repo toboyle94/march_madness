@@ -147,9 +147,24 @@ team_names = {
 }
 
 # don't know if this is helpful, but a list of tuples representing 1st round matchups (play-in games are nested tuples)
-round_1 =  [('UVA', 'UMBC'), ('CREI', 'KSU'), ('UK', 'DAV'), ('ARIZ', 'BUFF'), ('MIA', 'UMBC'), ('L-IL', 'TENN'), ('WRST', 'UMBC'), ('NEV', 'TEX'), ('CIN', 'GAST'),
-			('XAV', ('NCCU', 'TXSO')), ('MIZ', 'FSU'), ('OSU', 'SDST'), ('GONZ', 'UNCG'), ('HOU', 'SDSU'), ('MICH', 'MONT'), ('TAMU', 'PROV'), ('UNC', 'LIP'), 
-			('VILL', ('LIU', 'RAD')), ('VT', 'ALA'), ('WVU', 'MURR'), ('WICH', 'MRSH'), ('FLA', ('SBON', 'UCLA')), ('TTU', 'SFA'), ('ARK', 'BUT'), ('PUR', 'CSF'), 
-			('KU', 'PENN'), ('HALL', 'NCST'), ('CLEM', 'NMSU'), ('AUB', 'COFC'), ('TCU', ('ASU', 'SYR')), ('MSU', 'BUCK'), ('HALL', 'NCST'), ('URI', 'OKLA'), ('DUKE', 'IONA')]
+round_1 =  [('UVA', 'UMBC'), ('CREI', 'KSU'),
+			('UK', 'DAV'), ('ARIZ', 'BUFF'),
+			('MIA', 'L-IL'), ('TENN', 'WRST'),
+			('NEV', 'TEX'), ('CIN', 'GAST'),
+
+			('XAV', ('NCCU', 'TXSO')), ('MIZ', 'FSU'),
+			('OSU', 'SDST'), ('GONZ', 'UNCG'),
+			('HOU', 'SDSU'), ('MICH', 'MONT'),
+			('TAMU', 'PROV'), ('UNC', 'LIP'),
+
+			('VILL', ('LIU', 'RAD')), ('VT', 'ALA'),
+			('WVU', 'MURR'), ('WICH', 'MRSH'),
+			('FLA', ('SBON', 'UCLA')), ('TTU', 'SFA'),
+			('ARK', 'BUT'), ('PUR', 'CSF'), 
+			
+			('KU', 'PENN'), ('HALL', 'NCST'),
+			('CLEM', 'NMSU'), ('AUB', 'COFC'),
+			('TCU', ('ASU', 'SYR')), ('MSU', 'BUCK'),
+			('URI', 'OKLA'), ('DUKE', 'IONA')]
 
 
