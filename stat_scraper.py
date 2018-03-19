@@ -3,11 +3,13 @@
 
 import random
 
+import yaml
 import requests
 import urllib2
 from bs4 import BeautifulSoup
 
-from big_dicts import team_ids, round_1
+round_1 = yaml.load(open('round1.yaml'))
+team_ids = yaml.load(open('team_codes.yaml'))
 
 ROW_VALS = ('gp', 'min', 'ppg', 'rpg', 'apg', 'spg', 'bpg', 'tpg', 'fg_per', 'ft_per', '3p_per')
 
